@@ -1,0 +1,15 @@
+{
+  "123456789012345678": {
+    "points": 10,
+    "warnings": [
+      "Spamming in chat",
+      "Using offensive language"
+    ]
+  },
+  "987654321098765432": {
+    "points": 5,
+    "warnings": [
+      "Posting inappropriate content"
+    ]
+  }
+}

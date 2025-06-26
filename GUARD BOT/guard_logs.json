@@ -1,0 +1,26 @@
+{
+  "guild_id": [
+    {
+      "user_id": "123456789012345678",
+      "user_tag": "ExampleUser#1234",
+      "title": "User Warned",
+      "description": "Warned for spamming in chat.",
+      "executor_id": "987654321098765432",
+      "executor_tag": "Moderator#5678",
+      "channel": "mod-log",
+      "date": "2025-06-26",
+      "time": "20:00:00"
+    },
+    {
+      "user_id": "123456789012345678",
+      "user_tag": "ExampleUser#1234",
+      "title": "User Banned",
+      "description": "Banned for repeated offenses.",
+      "executor_id": "987654321098765432",
+      "executor_tag": "Admin#9999",
+      "channel": "mod-log",
+      "date": "2025-06-25",
+      "time": "18:30:00"
+    }
+  ]
+}
