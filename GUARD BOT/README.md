@@ -28,20 +28,17 @@ Guard Bot, sunucu yöneticilerinin kullanıcıları kolayca yönetmesini sağlay
 
 ## 🛠️ Commands / Komutlar
 
-| Command (English)       | Description (English)                  | Komut (Türkçe)           | Açıklama (Türkçe)                  |
-|------------------------|--------------------------------------|--------------------------|-----------------------------------|
-| `!ban @user reason`     | Ban a user                          | `!ban @kullanıcı sebep`   | Kullanıcıyı sunucudan yasaklar    |
-| `!unban user#0000`      | Unban by tag or ID                  | `!unban kullanıcı#0000`    | Banlanan kullanıcının yasağını kaldırır |
-| `!kick @user reason`    | Kick a user                        | `!kick @kullanıcı sebep`   | Kullanıcıyı sunucudan atar         |
-| `!mute @user reason`    | Mute in text channels              | `!mute @kullanıcı sebep`   | Metin kanallarında susturur        |
-| `!unmute @user`         | Remove text mute                   | `!unmute @kullanıcı`       | Metin susturmasını kaldırır        |
-| `!vmute @user 10m reason` | Voice mute with duration          | `!vmute @kullanıcı 10dk sebep` | Sesli kanalda süreli susturma     |
-| `!vunmute @user`        | Remove voice mute                  | `!vunmute @kullanıcı`      | Sesli susturmayı kaldırır          |
-| `!clear <number>`       | Bulk delete messages              | `!clear <sayı>`            | Belirtilen sayıda mesaj siler      |
-| `!warn @user reason`    | Warn user & add penalty points    | `!warn @kullanıcı sebep`   | Kullanıcıyı uyarır, ceza puanı ekler |
-| `!points @user`         | Show penalty points               | `!points @kullanıcı`       | Kullanıcının ceza puanını gösterir |
-| `!clearpenalty @user`   | Clear user's penalty record       | `!clearpenalty @kullanıcı` | Kullanıcının ceza geçmişini sıfırlar |
-| `!help` or `!yardim`    | Show help menu                   | `!yardim` veya `!help`     | Yardım menüsünü gösterir           |
+| 🇬🇧 **Command**               | 📘 **Description (EN)**                     | 🇹🇷 **Komut**                    | 📙 **Açıklama (TR)**                                         |
+| ------------------------------ | ------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| `!ban @user reason`            | Ban a user from the server                  | `!ban @kullanıcı sebep`           | Bir üyeyi sunucudan yasaklar                                 |
+| `!unban user#0000` or `userID` | Unban by tag or ID                          | `!unban kullanıcı#0000` veya ID   | Kullanıcının yasağını kullanıcı etiketi veya ID ile kaldırır |
+| `!kick @user reason`           | Kick a user from the server                 | `!kick @kullanıcı sebep`          | Bir üyeyi sunucudan atar                                     |
+| `!mute @user reason`           | Mute a user in text channels                | `!mute @kullanıcı sebep`          | Metin kanallarında bir kullanıcıyı susturur                  |
+| `!unmute @user`                | Remove text mute                            | `!unmute @kullanıcı`              | Metin susturmasını kaldırır                                  |
+| `!vmute @user 10m reason`      | Voice mute a user for a duration (e.g. 10m) | `!vmute @kullanıcı 10dk sebep`    | Belirtilen süre boyunca sesli susturma uygular               |
+| `!vunmute @user`               | Remove mute from voice channel              | `!vunmute @kullanıcı`             | Sesli susturmayı kaldırır                                    |
+| `!clear <number>`              | Delete multiple messages from the channel   | `!clear <sayı>`                   | Belirli sayıda mesajı siler (1-100 arası)                    |
+| `!profile @user (optional)`    | Show user profile information               | `!profile @kullanıcı (opsiyonel)` | Kullanıcının profil bilgilerini embed olarak gösterir        |
 
 ---
 
