@@ -28,7 +28,7 @@ Guard Bot, sunucu yöneticilerinin kullanıcıları kolayca yönetmesini sağlay
 
 ## 🛠️ Commands / Komutlar
 
-| 🇬🇧 **Command**               | 📘 **Description (EN)**                     | 🇹🇷 **Komut**                    | 📙 **Açıklama (TR)**                                         |
+| 🇺🇸 **Command**               | 📘 **Description (EN)**                     | 🇹🇷 **Komut**                    | 📙 **Açıklama (TR)**                                         |
 | ------------------------------ | ------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
 | `!ban @user reason`            | Ban a user from the server                  | `!ban @kullanıcı sebep`           | Bir üyeyi sunucudan yasaklar                                 |
 | `!unban user#0000` or `userID` | Unban by tag or ID                          | `!unban kullanıcı#0000` veya ID   | Kullanıcının yasağını kullanıcı etiketi veya ID ile kaldırır |
