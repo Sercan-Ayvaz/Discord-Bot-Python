@@ -1,8 +1,8 @@
-# 🚨 Guard Bot 🚨
+# 🚨 **Guard Bot** 🚨
 
 ---
 
-## 📜 About / Hakkında
+## 📜 **About / Hakkında**
 
 **English:**  
 Guard Bot is a powerful and user-friendly Discord moderation bot designed to help server admins manage users effectively with commands for moderation, warning & penalty tracking, and detailed logging.
@@ -12,7 +12,7 @@ Guard Bot, sunucu yöneticilerinin kullanıcıları kolayca yönetmesini sağlay
 
 ---
 
-## ⚙️ Features / Özellikler
+## ⚙️ **Features / Özellikler**
 
 | 🇬🇧 English                                    | 🇹🇷 Türkçe                                    |
 |-----------------------------------------------|---------------------------------------------|
@@ -26,7 +26,7 @@ Guard Bot, sunucu yöneticilerinin kullanıcıları kolayca yönetmesini sağlay
 
 ---
 
-## 🛠️ Commands / Komutlar
+## 🛠️ **Commands / Komutlar**
 
 | 🇺🇸 **Command**               | 📘 **Description (EN)**                     | 🇹🇷 **Komut**                    | 📙 **Açıklama (TR)**                                         |
 | ------------------------------ | ------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -42,7 +42,7 @@ Guard Bot, sunucu yöneticilerinin kullanıcıları kolayca yönetmesini sağlay
 
 ---
 
-## 🚀 Setup & Installation / Kurulum & Yükleme
+## 🚀 **Setup & Installation / Kurulum & Yükleme**
 
 ### English
 1. Clone repository  
@@ -103,7 +103,7 @@ python bot.py
 ```
 
 
-## ⚙️ Configuration / Ayarlar
+## ⚙️ **Configuration / Ayarlar**
 - **Log Channel / Log Kanalı:**\
 The bot sends logs to a channel named guard-log. Create this or change the LOG_CHANNEL_NAME variable.
 Bot logları guard-log adlı kanala gönderir. Bu kanalı oluşturun veya LOG_CHANNEL_NAME değişkenini değiştirin.
@@ -111,11 +111,20 @@ Bot logları guard-log adlı kanala gönderir. Bu kanalı oluşturun veya LOG_CH
 Command permissions require roles: KURUCU, Yetkili, and <>. Adjust role names in code if needed.
 Komutlar için KURUCU, Yetkili ve <> rollerinin olması gerekir. Gerekirse kodda değiştirin.
 
-## 💾 Data Storage / Veri Saklama
+## 💾 **Data Storage / Veri Saklama**
 - **Penalties:** Saved in penalties.json
 - **Logs:** Saved in guard_logs.json and posted to the log channel
 
-## 💻Example guard_logs.json content / Örnek guard_logs.json içeriği
+## 📄 .**env Configuration / Yapılandırma**
+Create a .env file in the root directory and paste the following line inside:
+Ana dizine .env adlı bir dosya oluşturun ve aşağıdaki satırı içine yapıştırın:
+```
+DISCORD_TOKEN=your_bot_token_here
+```
+✅ Replace your_bot_token_here with your actual Discord bot token.\
+✅ your_bot_token_here kısmını kendi bot token'ınız ile değiştirin.
+
+## 💻**Example guard_logs.json content / Örnek guard_logs.json içeriği**
 ```json
 {
   "guild_id": [
@@ -145,7 +154,7 @@ Komutlar için KURUCU, Yetkili ve <> rollerinin olması gerekir. Gerekirse kodda
 }
 ```
 
-## 💻Example penalties.json content / Örnek penalties.json içeriği
+## 💻**Example penalties.json content / Örnek penalties.json içeriği**
 ```json
 {
   "123456789012345678": {
@@ -164,7 +173,7 @@ Komutlar için KURUCU, Yetkili ve <> rollerinin olması gerekir. Gerekirse kodda
 }
 ```
 
-## 📄guard.py File Content / guard.py Dosya İçeriği
+## 📄**guard.py File Content / guard.py Dosya İçeriği**
 ```python
 import discord
 from discord.ext import commands
